@@ -5,7 +5,7 @@ import htmlWebpackPlugin from 'html-webpack-plugin';
 import cleanWebpackPlugin from 'clean-webpack-plugin';
 
 var VENDOR_LIBS = [
-  "bootstrap", "jquery", "react", "react-dom", "redux", "react-redux"
+  "bootstrap", "jquery", "react", "react-dom", "redux", "react-redux", "redux-promise"
 ];
 
 
