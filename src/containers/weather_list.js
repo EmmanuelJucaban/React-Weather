@@ -17,6 +17,16 @@ class WeatherList extends Component {
             <SparklinesLine color="red"></SparklinesLine>
           </Sparklines>
         </td>
+        <td>
+          <Sparklines height={123} width={180} data={pressure}>
+            <SparklinesLine color="purple"></SparklinesLine>
+          </Sparklines>
+        </td>
+        <td>
+          <Sparklines height={123} width={180} data={humidity}>
+            <SparklinesLine color="blue"></SparklinesLine>
+          </Sparklines>
+        </td>
       </tr>
     );
   }
